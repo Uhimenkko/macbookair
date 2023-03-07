@@ -22,14 +22,11 @@
 // let c = b.toFixed(2);
 // alert("Ваша сума к получению " + c +" грн")
 6
-// const red = prompt("Введите значение красного цвета в десятичной системе");
-// const green = prompt("Введите значение зеленого цвета в десятичной системе");
-// const blue = prompt("Введите значение синего цвета в десятичной системе");
-// const hexRed = parseInt(red).toString(16);
-// const hexGreen = parseInt(green).toString(16);
-// const hexBlue = parseInt(blue).toString(16);
-// const hexColor = `#${hexRed}${hexGreen}${hexBlue}`;
-// alert(`Ваш цвет: ${hexColor}`);
+// let str = "#"
+// str += Number (prompt("Введите значение красного цвета в десятичной системе")).toString(16);
+// str += Number (prompt("Введите значение зеленого цвета в десятичной системе")).toString(16);
+// str += Number (prompt("Введите значение синего цвета в десятичной системе")).toString(16);
+// alert(`Ваш цвет: ` + str);
 7
 // let floor = prompt("Сколько этажей в доме?");
 // let flats = prompt("Сколько квартир на этаже?");
